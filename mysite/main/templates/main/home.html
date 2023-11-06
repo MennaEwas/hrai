@@ -1,0 +1,33 @@
+{% extends 'main/base.html' %}
+
+
+{% block title %}
+HRAI | Home
+{% endblock %}
+
+{% block content %}
+<nav>
+    <ul>
+      <li>
+        <a class="active" href="http://www.google.com/ncr">Home</a>
+      </li>
+      <li> <a href="/">About us</a></li>
+      <li> <a href="/">Customers</a></li>
+      <li> <a href="/">Pricing</a></li>
+      <li> <a class="about" href="/">Contact us</a></li>
+    </ul>
+  </nav>
+
+  <a id="login-button" ms-hide-element="true" href="/login" class="button logout login w-button">Login</a>
+  <a id="signin-button" ms-hide-element="true" href="/logout" class="button logout login w-button">signup</a>
+  <a id="demo-button" ms-hide-element="true" href="/logout" class="button logout login w-button">Book a demo</a>
+
+  
+<h2>Welcome to HRAI</h2>
+
+<video width="500px" height="500px" controls="controls">
+    <source src="vid.mp4" type="video/mp4" />
+   </video>
+
+
+{% endblock %}

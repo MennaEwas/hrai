@@ -1,3 +1,6 @@
+This is python enviroment to help you manage the application
+Follow the code to open it
+
 ```code
 source hrai/scripts/activate
 cd mysite
